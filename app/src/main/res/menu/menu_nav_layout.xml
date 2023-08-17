@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/id_1">
+        <item android:title="Quản lý">
+            <menu>
+                <item
+                    android:title="Quản lý phiếu mượn"
+                    android:id="@+id/nav_PhieuMuon"
+                    android:icon="@drawable/ic_home"/>
+                <item
+                    android:title="Quản lý loại sách"
+                    android:id="@+id/nav_LoaiSach"
+                    android:icon="@drawable/ic_baseline_collections_bookmark_24"/>
+                <item
+                    android:title="Quản lý sách"
+                    android:id="@+id/nav_Sach"
+                    android:icon="@drawable/ic_baseline_library_books_24"/>
+                <item
+                    android:title="Quản lý thành viên"
+                    android:id="@+id/nav_ThanhVien"
+                    android:icon="@drawable/ic_baseline_people_24"/>
+            </menu>
+        </item>
+        <item android:title="Sản phẩm">
+            <menu>
+                <item
+                    android:title="Loại sản phẩm"
+                    android:id="@+id/nav_loaiSP"
+                    android:icon="@drawable/button_plus_green"/>
+                <item
+                    android:title="Sản phẩm"
+                    android:id="@+id/nav_sanPham"
+                    android:icon="@drawable/bookicon"/>
+                <item
+                    android:title="Tổng tiền"
+                    android:id="@+id/nav_tongTien"
+                    android:icon="@drawable/ic_money"/>
+            </menu>
+        </item>
+
+        <item android:title="Thống kê">
+            <menu>
+                <item
+                    android:title="Top 10 sách mượn nhiều nhất"
+                    android:id="@+id/nav_Top10"
+                    android:icon="@drawable/money_icon"/>
+                <item
+                    android:title="Doanh thu"
+                    android:id="@+id/nav_DoanhThu"
+                    android:icon="@drawable/ic_money"/>
+            </menu>
+        </item>
+
+
+        <item android:title="Người dùng">
+            <menu>
+                <item
+                    android:title="Tạo tài khoản"
+                    android:id="@+id/nav_AddUser"
+                    android:icon="@drawable/add"/>
+                <item
+                    android:title="Đổi mật khẩu"
+                    android:id="@+id/nav_DoiMk"
+                    android:icon="@drawable/ic_key"/>
+                <item
+                    android:title="Đăng xuất"
+                    android:id="@+id/nav_Logout"
+                    android:icon="@drawable/ic_logout"/>
+            </menu>
+        </item>
+    </group>
+</menu>
